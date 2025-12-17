@@ -1,0 +1,25 @@
+program: package_gen_neural_hmm_B_UDP_wandb.py
+method: grid
+
+metric:
+  name: metric_combined          # minimise the weighted sum defined in the script
+  goal: minimize
+
+parameters:
+  # ── HMM-GMM backbone ───────────────────────────────────────────
+  n_states:
+    values: [6]
+  n_mix_hmm:                  # mixture-components per HMM state
+    values: [7]
+  min_covar:                  # variance floor (discrete choice)
+    values: [1e-2]
+  max_iter:
+    values: [200]
+
+  # ── MDN emissions ──────────────────────────────────────────────
+  n_mix_mdn:                  # mixtures inside each State-MDN
+    values: [4, 8, 12, 16, 20, 24, 32]
+  mdn_hidden:                 # hidden-layer width
+    values: [32, 64, 128, 256]
+  mdn_epochs:
+    values: [30, 60, 90, 120, 180]

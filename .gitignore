@@ -1,0 +1,22 @@
+# Python & Jupyter temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Weights & Biases local run data
+wandb/
+wandb_sweeps/wandb/
+
+# Large Model files (prevent uploading heavy binaries)
+models/
+*.pt
+*.pth
+*.joblib
+
+# Data folders (Recommended to ignore if files are >50MB)
+# You can comment these out with # if the files are small and you want them on GitHub
+real_data/
+synth_data/
+
+# OS generated files
+.DS_Store
