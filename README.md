@@ -11,8 +11,9 @@ This project implements a hybrid machine learning approach combining **Hidden Ma
 ## Repository Structure
 
 - **`models/`**: Contains saved model checkpoints and weights.
-- **`wandb/`**: Logs and run history from Weights & Biases.
-- **`notebooks/`**: (If applicable) Jupyter notebooks for data analysis and visualization.
+- **`real_data/`**: Folder for input datasets (e.g., `df_raw_HTTP.csv`).
+- **`synth_data/`**: Output folder where generated synthetic traffic is saved.
+- **.ipynb**: Jupyter notebooks containing the training and generation logic are located in the root directory.
 
 ## Installation
 
