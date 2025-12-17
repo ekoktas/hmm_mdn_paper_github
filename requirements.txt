@@ -1,0 +1,12 @@
+torch==2.5.1
+hmmlearn==0.3.3
+scikit-learn
+scipy
+statsmodels
+numpy
+pandas
+matplotlib==3.10.0
+seaborn
+tqdm
+jupyterlab
+ipykernel

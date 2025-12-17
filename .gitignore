@@ -7,10 +7,5 @@ __pycache__/
 wandb/
 wandb_sweeps/wandb/
 
-models/
-*.pt
-*.pth
-*.joblib
-
 # OS generated files
 .DS_Store
