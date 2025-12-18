@@ -4,6 +4,8 @@
 
 This repository contains the official source code and implementation for the paper **"State Aware Traffic Generation for Real-Time Network Digital Twins"**, presented at the **2025 IEEE 36th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)**.
 
+**This work was supported by the German Federal Ministry of Research, Technology and Space (BMFTR) under grant number 16KIS2259 (SUSTAINET-inNOvAte).**
+
 ## Abstract
 
 This project implements a hybrid machine learning approach combining **Hidden Markov Models (HMM)** and **Mixture Density Networks (MDN)** to generate high-fidelity synthetic network traffic. This approach is designed for Network Digital Twins, enabling the accurate modeling of state-dependent traffic characteristics (such as HTTP payload sizes and inter-arrival times) while maintaining temporal correlations.
